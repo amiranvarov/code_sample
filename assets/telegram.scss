@@ -1,0 +1,32 @@
+$buttonSize: 48px;
+
+.telegram-login-widget {
+  border: none;
+  height: 40px;
+  width: $buttonSize;
+  overflow: hidden;
+  opacity: 0.01;
+}
+
+.telegram-login-button {
+  border: none;
+  height: $buttonSize;
+  width: $buttonSize;
+  background: #54a9eb;
+  border-radius: $buttonSize;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 4px 5px 10px 0 rgba(0, 0, 0, 0.09);
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.telegram-plane-icon {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}

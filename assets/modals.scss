@@ -1,0 +1,20 @@
+.modal-authorization {
+  width: 460px !important;
+}
+
+.modal-authorization-body {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal-sign-in-title {
+  font-size: 28px;
+}
+
+@media (max-width: 575.98px) {
+  .modal-authorization {
+    width: auto !important;
+  }
+}

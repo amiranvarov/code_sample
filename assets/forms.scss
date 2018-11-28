@@ -1,0 +1,87 @@
+.auth-form {
+  width: 100%;
+  margin: auto;
+  max-width: 330px;
+}
+
+.auth-form-input {
+  border: none;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.05);
+
+  &::-moz-placeholder {
+    opacity: 0.4;
+    color: #2f3d5a;
+    line-height: 38px;
+  }
+}
+
+.forgot-password {
+  opacity: 0.7;
+}
+
+.help-content {
+  display: block;
+  text-align: center;
+
+  .agreement-text {
+    margin-bottom: 20px;
+    display: block;
+
+    .text-and {
+      margin-left: 5px;
+    }
+  }
+
+  .help-text {
+    opacity: 0.7;
+    color: #2f3d5a;
+    display: block;
+  }
+
+  .terms-of-use-link {
+    color: #5797ec;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .help-link {
+    color: #2f3d5a;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.info-content {
+  color: #2f3d5a;
+  text-align: center;
+  margin-bottom: 24px;
+
+  span {
+    display: block;
+    line-height: 18px;
+  }
+
+  .info-number {
+    font-weight: 600;
+  }
+}
+
+.required-fields-text {
+  color: #2f3d5a !important;
+}
+
+.social-login-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
